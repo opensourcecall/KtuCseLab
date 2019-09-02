@@ -1,0 +1,23 @@
+ls  (listing files)
+	ls -R (shows all the files not only in directories but also subdirectories)
+	ls -al (gives detailed information of the files)
+	ls -a (shows hidden files)
+
+cat (creating and viewing files eg :- cat <filename>)
+
+rm (remove files eg :- rm <filename>)
+
+mv (move and renaming files eg :- mv filename new_file_location, mv filename newfilename)
+
+DIRECTORY MANUPILATION
+
+mkdir (make directory eg :- mkdir directory_name)
+
+rmdir (remove directory eg :- rmdir directoryname)
+
+OTHER IMPORTANT COMMANDS
+
+man (manual of any commands eg :- man <command name>)	
+
+clear (clear screen) 
+
