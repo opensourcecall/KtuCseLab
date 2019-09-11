@@ -10,7 +10,7 @@ The experiments included are given below:\
 *Computer Science workshop (cs 110)
 
 #s2\
-*Computer Programming Lab (cs 100)
+*Computer Programming Lab (cs 102)
 
 #s3\
 *Data Structures Lab (cs 205)
