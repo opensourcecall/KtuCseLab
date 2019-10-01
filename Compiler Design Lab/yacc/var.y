@@ -20,4 +20,5 @@ A : LETTER A
 }
 yyerror(){
 	printf("Invalid");
+  exit(0);
 }

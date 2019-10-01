@@ -29,4 +29,5 @@ yywrap()
 }
 int yyerror(){
 	printf("Invalid expression\n");
+  exit(0);
 }
