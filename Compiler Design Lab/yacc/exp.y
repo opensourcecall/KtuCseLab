@@ -23,4 +23,5 @@ E : E '+' E {$$=$1+$3;}
 }
 yyerror(){
 	printf("Invalid");
+  exit(0);
 }
