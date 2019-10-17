@@ -1,0 +1,9 @@
+DELIMITER #
+DROP FUNCTION IF EXISTS function1#
+CREATE FUNCTION function1(A int ,B int ) RETURNS INT
+BEGIN
+DECLARE c int default 0;
+SET c=A+B;
+RETURN(c);
+END #
+DELIMITER ;

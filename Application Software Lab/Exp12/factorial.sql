@@ -1,0 +1,12 @@
+DELIMITER #
+DROP FUNCTION IF EXISTS factorial#
+CREATE FUNCTION factorial(A int) RETURNS INT
+BEGIN
+DECLARE fact int default 1;
+WHILE(A>1)DO
+   SET fact=fact*A;
+   SET A=A-1;
+END WHILE;
+RETURN(fact);
+END #
+DELIMITER ;
